@@ -6,9 +6,15 @@ authors = ["Athul Muralidhar <athul.muralidhar@bricr.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+fastapi = "^0.68.0"
+uvicorn = "^0.15.0"
+spacy = "^3.1.1"
+requests = "^2.26.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+black = "^21.7b0"
+mypy = "^0.910"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
